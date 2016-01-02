@@ -1,0 +1,38 @@
+{
+  "name": "chapter-pipes",
+  "version": "1.0.0",
+  "description": "Pipes in Angular 2",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angular-in-action/chapter-pipes.git"
+  },
+  "keywords": [
+    "angular2"
+  ],
+  "author": "Jeremy Wilken <gnomation@gnomeontherun.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/angular-in-action/chapter-pipes/issues"
+  },
+  "homepage": "https://github.com/angular-in-action/chapter-pipes#readme",
+  "scripts": {
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "lite": "lite-server",
+    "start": "concurrent \"npm run tsc:w\" \"npm run lite\" "
+  },
+  "dependencies": {
+    "angular2": "2.0.0-beta.7",
+    "es6-promise": "3.0.2",
+    "es6-shim": "0.33.3",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.2",
+    "systemjs": "0.19.20",
+    "zone.js": "0.5.15"
+  },
+  "devDependencies": {
+    "concurrently": "1.0.0",
+    "lite-server": "2.0.1",
+    "typescript": "1.7.5"
+  }
+}
