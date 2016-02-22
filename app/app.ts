@@ -1,12 +1,15 @@
 import {Component} from 'angular2/core';
 
+import {Weather} from './components/weather';
 import {Core} from './components/core';
 
 @Component({
   selector: 'app',
-  directives: [Core],
+  directives: [Weather, Core],
   template: `
-    <core></core>
+  <core></core>
+  <hr />
+  <weather></weather>
   `
 })
 export class App {
